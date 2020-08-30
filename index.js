@@ -17,4 +17,4 @@ const titleCased = () => {
     return question.map(word=> word.charAt(0).toUpperCase());
   });
 }
-console.log(titleCased)
+console.log(titleCased())
