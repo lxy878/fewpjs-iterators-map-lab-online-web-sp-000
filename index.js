@@ -14,6 +14,6 @@ const tutorials = [
 const titleCased = () => {
   return tutorials.map(question => {
     const words = question.split(' ');
-    return question.map
+    return question.map();
   });
 }
